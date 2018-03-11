@@ -2,6 +2,9 @@ package com.yunjae.session4.recipe1;
 
 import java.util.concurrent.ConcurrentLinkedDeque;
 
+/**
+ *  Using Non-Blocking Thread-Safe Deques
+ */
 public class Main {
     public static void main(String[] args) {
         ConcurrentLinkedDeque<String> list = new ConcurrentLinkedDeque<>();
